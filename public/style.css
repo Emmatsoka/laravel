@@ -1,0 +1,226 @@
+body{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+fieldset{
+    width: fit-content;
+    padding: 20px;
+    margin: 0 auto;
+    border: none;
+    border-top: solid rgb(165, 165, 165) 1px ;
+    border-bottom: solid rgb(165, 165, 165) 1px ;
+}
+h1{
+    text-align: center;
+}
+label{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+input{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: 1px solid rgb(165, 165, 165);
+    transition: 0.3s all;
+}
+input:focus{
+    outline: none;
+    background-color: rgb(34, 34, 34);
+    transition: 0.3s all;
+}
+input:hover{
+    background-color: rgb(26, 26, 26);
+    transition: 0.3s all;
+}
+.gomb{
+
+    border: none;
+    display: inline-block !important  ;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    transition: 0.3s all;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none !important    ;
+    font-size: 15px !important;
+}
+.ib{
+    display: inline-block !important  ;
+}
+.gomb:hover{
+    transition: 0.3s all;
+    color: black;
+    background-color: white;
+}
+.jobbrafloat{
+float: right;
+}
+.bekuld{
+    background-color: rgb(255, 96, 234);
+}
+.szerkeszt{
+    background-color: rgb(101, 255, 96);
+}
+.torol{
+    background-color: rgb(255, 96, 96);
+}
+.mutat{
+    background-color: rgb(96, 250, 255);
+}
+.egesz{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.774);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(165, 165, 165);
+    width: fit-content;
+    margin: 10% auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+.alert{
+    margin: 10px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+  
+}
+
+.modal-content {
+    background-color:  rgb(31, 31, 31);
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#errorContent::before{
+    content: "🛑 | " !important;
+}
+#successContent::before{
+    content: "✅ | " !important;
+}
+table{
+    margin: 0 auto;
+    border: none;
+    
+}
+td,th{
+    padding: 10px;
+    border:none;
+    border-bottom: 1px solid rgb(185, 185, 185);
+
+}
+tbody{
+
+    border-radius: 10px;
+}
+nav{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.582);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgb(95, 95, 95);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.3s all;
+}
+ul{
+    padding-inline-start: 0px !important;
+}
+nav ul li:hover{
+    transition: 0.3s all;
+        border-bottom: 1px solid rgba(206, 206, 206, 0.233);
+        cursor: pointer;
+
+}
+   
+
+nav ul li a{
+    transition: 0.3s all; text-decoration: none;  color: white;
+}
+nav ul li a:hover{
+    transition: 0.3s all; color:gray;
+}
+nav{text-align: center;}
+
+footer{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    border-top: 1px solid rgb(165, 165, 165);
+    margin-top: 30vh;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px -20px 30px rgba(0, 0, 0, 0.582);
+}
+footer p{
+    padding: 20px;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #333333;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background: #424242;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #252525;
+  }
+
+  
