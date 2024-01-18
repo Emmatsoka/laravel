@@ -223,4 +223,8 @@ footer p{
     background: #252525;
   }
 
-  
+  #hasFreePlan{
+    margin: 0 auto !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+  }

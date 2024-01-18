@@ -33,6 +33,7 @@
     <header>
         <nav>
             <ul>
+                <li><a href="{{route('aitools.index')}}">Ai Eszközök</a></li>
                 <li><a href="{{route('categories.create')}}">Készítés</a></li>
                 <li><a href="{{route('categories.index')}}">Kategóriák</a></li>
             </ul>
